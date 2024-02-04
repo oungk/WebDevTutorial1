@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Title -->
+    <!-- TO DO change to your title -->
+    <title >Class of 2023 Freshman Surveyr</title>
+
+    <!-- favicon -->
+    <link rel="SHORTCUT ICON" href="https://iili.io/JAYjzEG.png">
+
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css"> <!-- normalize — removes default browser styles -->
+    <!-- see how bootstrap works: https://getbootstrap.com/docs/5.1/getting-started/introduction/ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> <!-- Bootstrap — for aligning text columns -->
+    <link rel="stylesheet" href="css/main.css"> <!-- main stylesheet — default styles -->
+    <link rel="stylesheet" href="css/styleadmissions.css"> <!-- Local stylesheet — put all your design choices here -->
+
+
+    <!-- Font Awesome — for the social media icons and hamburger menu icon -->
+    <script src="https://kit.fontawesome.com/ea52966d59.js" crossorigin="anonymous"></script>    
+
+    <!-- TO DO: SOCIAL CARDS — editors will help you with this, don't worry about it for now -->
+    <!-- BUT DONT FORGET ABOUT IT or your dom image won't show up on social media/texting -->
+    <!--Open Graph Card for social display (Be sure to change these!)-->
+    <meta property="og:url" content="http://vanderbilthustler.features.com/FreshmanSurvey2027/admissions"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Class of 2027 Freshman Survey | Admissions"/> <!-- headline -->
+    <meta property="og:description" content="The Hustler surveys the Class of 2027"/> <!-- abstract -->
+    <meta property="og:site_name" content="The Hustler surveys the Class of 2027">
+    <meta property="og:image" content="https://iili.io/JAaBKSS.jpg"/> <!-- link to dominant image -->
+
+    <!--Twitter Social Card (Be sure to change these!)-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@VandyHustler">
+    <meta name="twitter:creator" content="@VandyHustler">
+    <meta name="twitter:title" content="Class of 2027 Freshman Survey"> <!-- headline -->
+    <meta name="twitter:description" content="The Hustler surveys the Class of 2027"> <!-- abstract -->
+    <meta name="twitter:image" content="https://iili.io/JAaBKSS.jpg"> <!-- dominant image -->
+</head>
+
+<body>
+    <!--Header-->
+  <header>
+
+        <!-- Navbar -->
+            <!-- Navbar -->
+            <nav>
+                <ul>
+                    <li class="logo">
+                        <a href="https://www.vanderbilthustler.com">
+                            <img src="https://iili.io/JAYjzEG.png" alt="JAYjzEG.png" border="0">
+                        <a href="index.html" id="surveyLink"><h8>| Class of 2027 First Year Survey</h8></a>
+                    </li>
+                    <li class="toggle">
+                        <i class="fas fa-bars fa-lg"></i>
+                    </li>
+                    <li class="item dropdown">
+                        <h9 id="homeLabel">THE SURVEY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9>
+                        <div class="dropdown-content">
+                        <a href="demographics.html"><h9>DEMOGRAPHICS</h9></a>
+                        <a href="high-school.html"><h9>HIGH SCHOOL</h9></a>
+                        <a href="admissions.html"><h9>ADMISSIONS</h9></a>
+                        <a href="college-life.html"><h9>COLLEGE LIFE</h9></a>
+                        <a href="politics.html"><h9>POLITICS</h9></a>
+                        <a href="lifestyle.html"><h9>LIFESTYLE</h9></a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="methodology.html">
+                            <h9 id="aboutLabel"> ABOUT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h9>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        <!-- Headline, subhed -->
+        <!-- feel free to change this up — you don't need it to have data scroll speed, 
+        doesn't have to be centered, doesn't have to be 2 lines, etc. (see header options in css directions for more inspo) -->
+        <h1 data-scroll-speed="2">ADMISSIONS</h1>
+
+    </header> 
+
+    <!-- main article -->
+    <main>
+        <article class="container">
+            <div class="row justify-content-center">
+            <div class="col-md-6 story"> 
+    
+                <p><small><em>Two students walk across campus, as captured on Oct. 20, 2023. (Hustler Multimedia/Nikita Rohila)</em></small></p>
+                <p>
+                    Almost half of survey respondents were admitted via the <a href = "https://vanderbilthustler.com/2023/02/20/vanderbilt-admits-15-7-of-early-decision-applicants-record-low/">early decision I track</a>.<a href="https://vanderbilthustler.com/2023/04/20/record-low-5-6-of-applicants-admitted-to-class-of-2027-admission-rates-continue-to-decline/"> Regular decision</a> followed closely with 39% of respondents being admitted that way. 
+                </p>
+                <p>
+                    “I applied regular decision because I didn’t have a top school and wanted to keep my chances open,” first-year Becca Carp said. “I also didn’t want to make a binding financial decision and close myself off to potential scholarships.”
+                </p>
+                <p>
+                    The top five other universities students were admitted to were Indiana University, University of North Carolina at Chapel Hill, University of Tennessee Knoxville, University of Michigan and University of Wisconsin-Madison. 
+                </p>
+                <p>
+                    “I was also considering UC Berkeley, but I ultimately chose Vanderbilt because it better coincided with my values in both social and academic life,” first-year Nicole Cai said. 
+                </p>
+
+                <section class="box-container">
+                    <div class="box" onclick="changeChart0('Envqa', '1');">
+                        <h5>ADMISSIONS CYCLE</h5>
+                    </div>
+                </section>
+                
+                <iframe title="The largest proportion of students were admitted through ED1" aria-label="Bar Chart" id="datawrapper-chart-Envqa" src="https://datawrapper.dwcdn.net/Envqa/6/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="329" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+                </script>
+
+                <p>
+                    Students were more likely to have utilized application assistance if they were in a higher income bracket. For students with a household income of $1 million or more, 33% used a college counselor and 47% used an ACT/SAT tutor. For students with a household income of $50,000 or less, 5% used a college counselor and 4% used an ACT/SAT tutor. 
+                </p>
+
+            </div>
+            </div>
+    </article>
+</main>
+
+
+    
+</script>
+
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-3 text-center"> <!-- Center the content in the column -->
+                    <a href="https://www.vanderbilthustler.com">
+                        <img src="https://iili.io/JAYjzEG.png" alt="JAYjzEG.png" class="footer-logo">
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center"> <!-- Center the content in the column -->
+                    <a href="methodology.html">
+                        <h7>ABOUT THE PROJECT</h7>
+                    </a>
+                <p style="margin-top: 10px;"><small>&copy; Copyright 2023 The Vanderbilt Hustler</small></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
